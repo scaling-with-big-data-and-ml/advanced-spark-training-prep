@@ -1,0 +1,13 @@
+src,dst,distance
+A,B,60
+B,A,50
+A,C,50
+C,A,100
+A,D,90
+C,I,25
+C,J,20
+B,F,50
+F,B,110
+F,G,30
+F,H,25
+B,E,9

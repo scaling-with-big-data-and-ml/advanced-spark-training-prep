@@ -1,4 +1,6 @@
 import socket
+from time import sleep
+import random
 
 HOST = "localhost"
 PORT = 9998
@@ -9,6 +11,13 @@ PORT = 9998
 def example1(sock):
     sock.send("7,blue\n".encode())
     # TODO examples in the training
+
+
+# for the numbers aggregation exercise if netcat is unavailable/clunky to use
+def send_numbers(sock):
+    while True:
+        sleep(random.random())
+        sock.send(random.randint(0, 100))
 
 
 if __name__ == '__main__':
