@@ -7,7 +7,7 @@
 
 """
     Exercise:
-    - read the stocks data as a stream
+    - read the stocks data as a stream (with files as the source)
     - write the stocks streaming DF to the console
 """
 
@@ -40,7 +40,7 @@
     4. Count the number of people in every batch
     5. Count the number of occurrences of each unique first name, with
         a) countByValue
-        b) reduceByKey
+        b) (optional) reduceByKey
 """
 
 # DStreams window transformations
